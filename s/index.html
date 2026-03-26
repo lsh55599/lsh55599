@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Design Youth — 디자인으로 공간을 확장하다</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ========== NAVBAR ========== -->
+<nav class="nav" id="navbar">
+  <div class="nav__brand">
+    <div class="nav__logo-icon">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+        <rect x="1" y="1" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.5"/>
+        <rect x="12" y="1" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.5"/>
+        <rect x="1" y="12" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.5"/>
+        <rect x="12" y="12" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+    </div>
+    <div class="nav__brand-text">
+      <span class="nav__brand-name" data-editable>Design Youth</span>
+      <span class="nav__brand-loc" data-editable>제주, 대한민국</span>
+    </div>
+  </div>
+  <ul class="nav__links">
+    <li><a href="#portfolio" data-editable>프로젝트</a></li>
+    <li><a href="#credentials" data-editable>인증 및 라이선스</a></li>
+    <li><a href="#contact" data-editable>문의하기</a></li>
+  </ul>
+  <a href="#contact" class="nav__cta" data-editable>상담 신청 →</a>
+  <button class="nav__hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-menu__close" id="mobileClose">✕</button>
+  <ul>
+    <li><a href="#portfolio">프로젝트</a></li>
+    <li><a href="#credentials">인증 및 라이선스</a></li>
+    <li><a href="#contact">문의하기</a></li>
+    <li><a href="#contact" class="mobile-menu__cta">상담 신청 →</a></li>
+  </ul>
+</div>
+
+<!-- ========== HERO ========== -->
+<section class="hero" id="home">
+  <div class="hero__grid-bg"></div>
+  <div class="hero__content">
+    <p class="hero__since" data-editable>SINCE 2004</p>
+    <h1 class="hero__title">
+      <span data-editable>디자인으로</span><br>
+      <span data-editable>공간을</span><br>
+      <span class="hero__title--blue" data-editable>확장하다</span>
+    </h1>
+    <p class="hero__desc" data-editable>
+      대규모 컨벤션, 정부 프로젝트 및 대한민국 전역의 혁신적인 공간 경험을 전문으로<br>
+      하는 프리미어 전시 및 인테리어 건축 회사입니다.
+    </p>
+    <div class="hero__actions">
+      <a href="#portfolio" class="btn btn--blue" data-editable>프로젝트 보기 →</a>
+      <a href="#contact" class="btn btn--outline" data-editable>상담 신청</a>
+    </div>
+  </div>
+  <div class="hero__stats">
+    <div class="hero__stat" data-editable-block>
+      <span class="hero__stat-num" data-editable>20+</span>
+      <span class="hero__stat-label" data-editable>년 경력</span>
+    </div>
+    <div class="hero__stat" data-editable-block>
+      <span class="hero__stat-num" data-editable>500+</span>
+      <span class="hero__stat-label" data-editable>완료된 프로젝트</span>
+    </div>
+    <div class="hero__stat" data-editable-block>
+      <span class="hero__stat-num" data-editable>150+</span>
+      <span class="hero__stat-label" data-editable>정부 계약</span>
+    </div>
+    <div class="hero__stat" data-editable-block>
+      <span class="hero__stat-num" data-editable>100%</span>
+      <span class="hero__stat-label" data-editable>고객 만족도</span>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PORTFOLIO ========== -->
+<section class="portfolio" id="portfolio">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label" data-editable>OUR PORTFOLIO</div>
+      <div class="section-header__row">
+        <h2 class="section-title" data-editable>주요 프로젝트</h2>
+        <p class="section-desc" data-editable>전시, 컨벤션 및 인테리어 건축을 위한 혁신적인 디자인 솔루션으로 공간을 혁신합니다.</p>
+      </div>
+    </div>
+
+    <div class="portfolio__grid">
+      <!-- Row 1: 2 cols -->
+      <div class="portfolio__item portfolio__item--large" data-editable-block>
+        <div class="portfolio__img-wrap">
+          <div class="portfolio__img portfolio__img--1"></div>
+        </div>
+        <div class="portfolio__overlay">
+          <div class="portfolio__meta">
+            <span class="portfolio__tag" data-editable>전시 건축</span>
+            <span class="portfolio__dot">•</span>
+            <span class="portfolio__year" data-editable>2024</span>
+          </div>
+          <h3 class="portfolio__title" data-editable>국립 컨벤션 센터</h3>
+        </div>
+      </div>
+      <div class="portfolio__item portfolio__item--large" data-editable-block>
+        <div class="portfolio__img-wrap">
+          <div class="portfolio__img portfolio__img--2"></div>
+        </div>
+        <div class="portfolio__overlay">
+          <div class="portfolio__meta">
+            <span class="portfolio__tag" data-editable>인테리어 건축</span>
+            <span class="portfolio__dot">•</span>
+            <span class="portfolio__year" data-editable>2023</span>
+          </div>
+          <h3 class="portfolio__title" data-editable>현대 미술관</h3>
+        </div>
+      </div>
+
+      <!-- Row 2: 3 cols -->
+      <div class="portfolio__item portfolio__item--tall" data-editable-block>
+        <div class="portfolio__img-wrap">
+          <div class="portfolio__img portfolio__img--3"></div>
+        </div>
+        <div class="portfolio__overlay">
+          <div class="portfolio__meta">
+            <span class="portfolio__tag" data-editable>인테리어 건축</span>
+            <span class="portfolio__dot">•</span>
+            <span class="portfolio__year" data-editable>2023</span>
+          </div>
+          <h3 class="portfolio__title" data-editable>정부청사 복합건물</h3>
+        </div>
+      </div>
+      <div class="portfolio__item" data-editable-block>
+        <div class="portfolio__img-wrap">
+          <div class="portfolio__img portfolio__img--4"></div>
+        </div>
+        <div class="portfolio__overlay">
+          <div class="portfolio__meta">
+            <span class="portfolio__tag" data-editable>전시 건축</span>
+            <span class="portfolio__dot">•</span>
+            <span class="portfolio__year" data-editable>2024</span>
+          </div>
+          <h3 class="portfolio__title" data-editable>무역 박람회 전시장</h3>
+        </div>
+      </div>
+      <div class="portfolio__item" data-editable-block>
+        <div class="portfolio__img-wrap">
+          <div class="portfolio__img portfolio__img--5"></div>
+        </div>
+        <div class="portfolio__overlay">
+          <div class="portfolio__meta">
+            <span class="portfolio__tag" data-editable>인테리어 건축</span>
+            <span class="portfolio__dot">•</span>
+            <span class="portfolio__year" data-editable>2023</span>
+          </div>
+          <h3 class="portfolio__title" data-editable>문화센터 인테리어</h3>
+        </div>
+      </div>
+      <div class="portfolio__item" data-editable-block style="grid-column: 2 / 3;">
+        <div class="portfolio__img-wrap">
+          <div class="portfolio__img portfolio__img--6"></div>
+        </div>
+        <div class="portfolio__overlay">
+          <div class="portfolio__meta">
+            <span class="portfolio__tag" data-editable>전시 건축</span>
+            <span class="portfolio__dot">•</span>
+            <span class="portfolio__year" data-editable>2024</span>
+          </div>
+          <h3 class="portfolio__title" data-editable>모던 전시 공간</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio__footer">
+      <a href="#contact" class="btn btn--outline-dark" data-editable>모든 프로젝트 보기 ↗</a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CREDENTIALS ========== -->
+<section class="credentials" id="credentials">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label" data-editable>CREDENTIALS</div>
+      <div class="section-header__row">
+        <h2 class="section-title" data-editable>인증 및 라이선스</h2>
+        <p class="section-desc" data-editable>전시 및 인테리어 건축 분야에서 20년간 검증된 우수성.</p>
+      </div>
+    </div>
+
+    <div class="credentials__intro">
+      <div class="credentials__intro-year">
+        <span class="credentials__big-num" data-editable>20</span>
+        <span class="credentials__big-unit" data-editable>년</span>
+      </div>
+      <div class="credentials__intro-divider"></div>
+      <div class="credentials__intro-text">
+        <h3 data-editable>정부 및 민간 부문의 신뢰</h3>
+        <p data-editable>2004년부터 Design Youth는 최고 수준의 전문 인증 및 법적 규정 준수를 유지하며 대한민국 공공 및 민간 부문에서 신뢰를 얻어왔습니다. 우리의 인증은 모든 프로젝트에서 품질, 안전 및 우수성에 대한 헌신을 보여줍니다.</p>
+      </div>
+    </div>
+
+    <div class="credentials__grid">
+      <div class="credential-card" data-editable-block>
+        <div class="credential-card__top">
+          <div class="credential-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="#1A56FF" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <span class="credential-card__est" data-editable>EST. 2004</span>
+        </div>
+        <div class="credential-card__bg-icon">🛡</div>
+        <h4 data-editable>건설 면허</h4>
+        <p class="credential-card__code" data-editable>KR-2004-CONST-89234</p>
+        <p class="credential-card__desc" data-editable>대규모 건설 및 인테리어 건축 프로젝트 면허</p>
+        <a href="#" class="credential-card__verify" data-editable>✓ 검증 및 활성</a>
+      </div>
+
+      <div class="credential-card" data-editable-block>
+        <div class="credential-card__top">
+          <div class="credential-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke="#1A56FF" stroke-width="2"/><path d="M8 14h8l1 7H7l1-7z" stroke="#1A56FF" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <span class="credential-card__est" data-editable>EST. 2005</span>
+        </div>
+        <div class="credential-card__bg-icon">🏅</div>
+        <h4 data-editable>전시 디자인 인증</h4>
+        <p class="credential-card__code" data-editable>KEXPO-2005-ED-1124</p>
+        <p class="credential-card__desc" data-editable>전시장 디자인 및 컨벤션 센터 건축 인증</p>
+        <a href="#" class="credential-card__verify" data-editable>✓ 검증 및 활성</a>
+      </div>
+
+      <div class="credential-card" data-editable-block>
+        <div class="credential-card__top">
+          <div class="credential-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26" stroke="#1A56FF" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <span class="credential-card__est" data-editable>EST. 2006</span>
+        </div>
+        <div class="credential-card__bg-icon">⭐</div>
+        <h4 data-editable>정부 계약자</h4>
+        <p class="credential-card__code" data-editable>GOV-KR-2006-GC-4521</p>
+        <p class="credential-card__desc" data-editable>정부 및 공공 부문 프로젝트 승인 업체</p>
+        <a href="#" class="credential-card__verify" data-editable>✓ 검증 및 활성</a>
+      </div>
+
+      <div class="credential-card" data-editable-block>
+        <div class="credential-card__top">
+          <div class="credential-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M9 11l3 3L22 4" stroke="#1A56FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" stroke="#1A56FF" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <span class="credential-card__est" data-editable>EST. 2018</span>
+        </div>
+        <div class="credential-card__bg-icon">✅</div>
+        <h4 data-editable>ISO 9001:2015</h4>
+        <p class="credential-card__code" data-editable>ISO-9001-2015-KR-8821</p>
+        <p class="credential-card__desc" data-editable>디자인 및 건설을 위한 품질 관리 시스템 인증</p>
+        <a href="#" class="credential-card__verify" data-editable>✓ 검증 및 활성</a>
+      </div>
+    </div>
+
+    <!-- Stats bar -->
+    <div class="credentials__stats">
+      <div class="credentials__stat" data-editable-block>
+        <span class="credentials__stat-num" data-editable>500+</span>
+        <span class="credentials__stat-label" data-editable>완료된 프로젝트</span>
+      </div>
+      <div class="credentials__stat" data-editable-block>
+        <span class="credentials__stat-num" data-editable>150+</span>
+        <span class="credentials__stat-label" data-editable>정부 계약</span>
+      </div>
+      <div class="credentials__stat" data-editable-block>
+        <span class="credentials__stat-num" data-editable>4</span>
+        <span class="credentials__stat-label" data-editable>주요 인증</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CONTACT ========== -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label" data-editable>GET IN TOUCH</div>
+      <div class="section-header__row">
+        <h2 class="section-title section-title--spaced" data-editable>함께 만들어 갑시다</h2>
+        <p class="section-desc" data-editable>공간을 혁신할 준비가 되셨나요? 상담을 위해 저희 팀에 문의하세요.</p>
+      </div>
+    </div>
+
+    <div class="contact__grid">
+      <!-- Left: Map + Info -->
+      <div class="contact__left">
+        <div class="contact__map">
+          <div class="contact__map-grid"></div>
+          <div class="contact__map-label">
+            <span data-editable>제주, 대한민국</span>
+            <small data-editable>본사 위치</small>
+          </div>
+          <div class="contact__map-pin">
+            <svg width="32" height="40" viewBox="0 0 32 40" fill="none">
+              <path d="M16 0C7.163 0 0 7.163 0 16c0 11.314 14.054 23.102 14.667 23.619a2 2 0 002.666 0C17.946 39.102 32 27.314 32 16 32 7.163 24.837 0 16 0z" fill="#1A56FF"/>
+              <circle cx="16" cy="16" r="6" fill="white"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="contact__info-cards">
+          <div class="contact__info-card">
+            <div class="contact__info-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke="#1A56FF" stroke-width="2"/><circle cx="12" cy="10" r="3" stroke="#1A56FF" stroke-width="2"/></svg>
+            </div>
+            <div>
+              <p class="contact__info-label" data-editable>주소</p>
+              <p class="contact__info-value" data-editable>제주특별자치도<br>대한민국</p>
+            </div>
+          </div>
+          <div class="contact__info-card">
+            <div class="contact__info-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.4 19.79 19.79 0 013 2.18 2 2 0 015 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L9.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z" stroke="#1A56FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div>
+              <p class="contact__info-label" data-editable>전화</p>
+              <p class="contact__info-value" data-editable>+82 (0)64 XXX-XXXX</p>
+            </div>
+          </div>
+          <div class="contact__info-card">
+            <div class="contact__info-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="#1A56FF" stroke-width="2"/><polyline points="22,6 12,13 2,6" stroke="#1A56FF" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <div>
+              <p class="contact__info-label" data-editable>이메일</p>
+              <p class="contact__info-value" data-editable>info@designyouth.kr</p>
+            </div>
+          </div>
+          <div class="contact__info-card">
+            <div class="contact__info-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#1A56FF" stroke-width="2"/><polyline points="12,6 12,12 16,14" stroke="#1A56FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div>
+              <p class="contact__info-label" data-editable>영업시간</p>
+              <p class="contact__info-value" data-editable>월요일 – 금요일: 오전 9:00 – 오후 6:00 (한국시간)<br>토요일 – 일요일: 휴무</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Form -->
+      <div class="contact__right">
+        <form class="contact__form" id="contactForm">
+          <div class="form-group">
+            <label data-editable>성명 *</label>
+            <input type="text" placeholder="성명을 입력하세요" required/>
+          </div>
+          <div class="form-group">
+            <label data-editable>이메일 주소 *</label>
+            <input type="email" placeholder="your.email@company.com" required/>
+          </div>
+          <div class="form-group">
+            <label data-editable>회사 / 기관</label>
+            <input type="text" placeholder="회사명을 입력하세요"/>
+          </div>
+          <div class="form-group">
+            <label data-editable>프로젝트 세부사항 *</label>
+            <textarea rows="6" placeholder="프로젝트 요구사항에 대해 알려주세요..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn--blue btn--full">
+            <span data-editable>메시지 전송</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><line x1="22" y1="2" x2="11" y2="13" stroke="white" stroke-width="2"/><polygon points="22,2 15,22 11,13 2,9" stroke="white" stroke-width="2" fill="white"/></svg>
+          </button>
+          <p class="contact__form-note" data-editable>일반적으로 24시간 내에 답변드립니다</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <div class="footer__logo">
+          <div class="footer__logo-icon">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <rect x="1" y="1" width="7" height="7" rx="1" stroke="white" stroke-width="1.5"/>
+              <rect x="12" y="1" width="7" height="7" rx="1" stroke="white" stroke-width="1.5"/>
+              <rect x="1" y="12" width="7" height="7" rx="1" stroke="white" stroke-width="1.5"/>
+              <rect x="12" y="12" width="7" height="7" rx="1" stroke="white" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <span data-editable>Design Youth</span>
+        </div>
+        <p data-editable>2004년부터 혁신적인 전시 및 인테리어 건축을 통해 공간을 확장해 왔습니다.</p>
+      </div>
+      <div class="footer__links">
+        <h5 data-editable>바로가기</h5>
+        <ul>
+          <li><a href="#portfolio" data-editable>프로젝트</a></li>
+          <li><a href="#credentials" data-editable>인증 및 라이선스</a></li>
+          <li><a href="#contact" data-editable>문의하기</a></li>
+        </ul>
+      </div>
+      <div class="footer__location">
+        <h5 data-editable>위치</h5>
+        <p data-editable>제주특별자치도</p>
+        <p data-editable>대한민국</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ========== EDIT TOOLBAR ========== -->
+<div class="edit-toolbar" id="editToolbar">
+  <button class="edit-toolbar__toggle" id="toggleEdit">✏️ 편집 모드</button>
+  <button class="edit-toolbar__download" id="downloadBtn">⬇️ 수정본 다운로드</button>
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
